@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(140, 138, 138);
+    background-color: #F5EFF7;
   }
   
   .sidenav {
@@ -54,25 +54,15 @@ body {
     height: auto;
   }
   
-  .centered-text {
-    position: absolute;
-    width: 100%;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    text-shadow: 2px 2px 3px rgb(0, 0, 0);
-  }
-  
   .content-block {
-    margin-top: 10%;
+    margin-top: 0;
+    color: #14311D;
   }
   .content-block img {
-    width: 80%; /* Imposta la larghezza dell'immagine al 80% dello schermo */
-    display: block; /* Per evitare spazi bianchi extra */
-    margin: 25% auto 0 auto; /* Per centrare l'immagine */
+    width: 80%; 
+    display: block; 
+    margin: 15% auto 0 auto; 
+    border-radius: 3%;
   }
  
   .content-block h2 {
@@ -84,11 +74,45 @@ body {
     font-weight: bold;
   }
   .content-block p {
+    margin-top: -7%;
     margin-left: 10%;
     margin-right: 10%;
+    font-size: 20px;
     text-align: left;
-    text-size: 36px;
   }
+  .footer-help p{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    color: #14311D;
+  }
+  .content-item {
+    margin-top: 0;
+    color: #14311D;
+  }
+  .content-item img {
+    width: 80%; 
+    display: block; 
+    margin: 15% auto 0 auto; 
+    border-radius: 3%;
+  }
+  .paragraph-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.left-paragraph {
+    width: 75%;
+    text-align: left;
+}
+
+.right-paragraph {
+    width: 10%;
+    text-align: right;
+}
 
   .overlay {
     position: fixed;
