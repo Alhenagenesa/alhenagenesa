@@ -116,8 +116,8 @@ body {
 }
 .footer{
   background-color: #14311D;
-  height: 80vh;
   padding-top: 5vh;
+  padding-bottom: 10vh;
 }
 .socialIcons {
   display: flex;
@@ -155,7 +155,7 @@ body {
   align-items: center;
 }
 .footer-menu a {
-  color: #F5EFF7; 
+  color: #000000; 
 }
 
 .contactItem i {
