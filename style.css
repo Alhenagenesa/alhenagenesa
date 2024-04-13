@@ -153,6 +153,7 @@ body {
 .contactItem {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .footer-menu a {
   color: #F5EFF7; 
