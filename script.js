@@ -1,9 +1,9 @@
 function openNav() {
-  document.getElementById("sidenav").style.width = "250px";
-  document.getElementById("overlay").classList.add('active'); // Mostra l'overlay
+  document.getElementById("sidenav").style.width = "100%";
+  document.getElementById("overlay").classList.add('active');
 }
 
 function closeNav() {
   document.getElementById("sidenav").style.width = "0";
-  document.getElementById("overlay").classList.remove('active'); // Nascondi l'overlay
+  document.getElementById("overlay").classList.remove('active');
 }

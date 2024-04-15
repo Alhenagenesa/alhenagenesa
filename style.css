@@ -12,17 +12,17 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #333;
+    background-color:#14311D;
     overflow-x: hidden;
-    padding-top: 60px;
+    padding-top: 30%;
     transition: 0.5s;
   }
   
   .sidenav a {
-    padding: 10px 15px;
     text-decoration: none;
-    font-size: 14px;
-    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    color: #F5EFF7;
     display: block;
     transition: 0.3s;
   }
@@ -33,12 +33,36 @@ body {
   
   .sidenav .closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
+    top: 47px;
+    left: 38px;
     font-size: 36px;
-    margin-left: 50px;
   }
-  
+  .sidenav-item{
+    padding-top: 15px;
+    padding-left: 40px;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    z-index: 1;
+    background-color: #F5EFF7;
+  }
+
+  .header img{
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 25%;
+  }
+  .header svg{
+    margin-top: 45%;
+    margin-left: 40%;
+    width: 20%;
+    fill: #14311D;
+  }
+
   .main-content {
     text-align: center;
     position: relative;
