@@ -43,105 +43,9 @@
     </div>
 
 <div class="main-content">
-
-    <div class="content-item">
-        <img src="img/Basi/Basi1.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Candele ritualistica</p>
-            <p class="right-paragraph">€8</p>
-        </div>
-    </div>
-
-    <div class="content-item">
-        <img src="img/Basi/Basi2.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Statua madreterra <br>Piccola<br>Grande</p>
-            <p class="right-paragraph"><br>€15<br>€20</p>
-        </div>
-    </div>
-
-    <div class="content-item">
-        <img src="img/Basi/Basi3.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Piattino selenite</p>
-            <p class="right-paragraph">€10</p>
-        </div>
-    </div>
-
-    <div class="content-item">
-        <img src="img/Basi/Basi4.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Sottobicchiere fiore della vita</p>
-            <p class="right-paragraph">€5</p>
-        </div>
-    </div>
-
-    <div class="content-item">
-        <img src="img/Basi/Basi11.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Base protezione 24cm</p>
-            <p class="right-paragraph">€18</p>
-        </div>
-    </div>
-
-    <div class="content-item">
-        <img src="img/Basi/Basi12.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Base amore 24cm</p>
-            <p class="right-paragraph">€18</p>
-        </div>
-    </div>
-
-    <div class="content-item">
-        <img src="img/Basi/Basi13.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Base realizazione dei desideri 24cm</p>
-            <p class="right-paragraph">€18</p>
-        </div>
-    </div>
-
-    <div class="content-item">
-        <img src="img/Basi/Basi14.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Circuito radionico benessere, abbondanza e prosperità 15cm</p>
-            <p class="right-paragraph">€15</p>
-        </div>
-    </div>
-
-    <div class="content-item">
-        <img src="img/Basi/Basi6.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Base riequilibro dei chakra 24cm</p>
-            <p class="right-paragraph">€18</p>
-        </div>
-    </div>
-
-    <div class="content-item">
-        <img src="img/Basi/Basi7.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Base sequenza di Grabovoj abbondanza 24cm</p>
-            <p class="right-paragraph">€18</p>
-        </div>
-    </div>
-
-    <div class="content-item">
-        <img src="img/Basi/Basi8.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Base sequenza di Grabovoj salute 24cm</p>
-            <p class="right-paragraph">€18</p>
-        </div>
-    </div>
-
-    <div class="content-item">
-        <img src="img/Basi/Basi10.jpg" alt="imgManuali1">
-        <div class="paragraph-container">
-            <p class="left-paragraph">Base cubo di Metatron 24cm</p>
-            <p class="right-paragraph">€18</p>
-        </div>
-    </div>
-    
-    
+    <div id="contenitore-prodotti"></div>
 </div>
+
 <Section class="footer">
     <div class="socialIcons">
       <div><a href="https://www.instagram.com/alhena.genesa?igsh=dnphN240aTNpbHdq&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a></i></div>
@@ -178,6 +82,79 @@
     </div>
   </Section>
 <div class="overlay" id="overlay"></div>
+
 <script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+<script>
+    // Funzione per verificare se un file immagine esiste
+    function checkImageExists(url) {
+        return new Promise((resolve) => {
+            const img = new Image();
+            img.src = url;
+            img.onload = () => resolve(true);
+            img.onerror = () => resolve(false);
+        });
+    }
+
+    // Funzione per caricare il CSV e generare i prodotti
+    async function caricaProdotti() {
+        Papa.parse("prodotti.csv", {
+            download: true,
+            header: true,
+            complete: async function(results) {
+                let prodotti = results.data;
+
+                // Filtriamo solo i prodotti che hanno un indice e rimuoviamo eventuali spazi
+                prodotti = prodotti.filter(prodotto => prodotto.indice && prodotto.indice.trim());
+
+                // Convertiamo l'indice in numero e lo ordiniamo
+                prodotti.sort((a, b) => Number(a.indice.trim()) - Number(b.indice.trim()));
+
+                let contenitoreProdotti = document.getElementById("contenitore-prodotti");
+
+                for (const prodotto of prodotti) {
+                    if (prodotto.nome && prodotto.prezzo && prodotto.immagine) {
+                        const imgBasePath = 'img/Basi/' + prodotto.immagine; // Percorso base senza estensione
+
+                        // Controlliamo prima .jpg, poi .jpeg
+                        const existsJpg = await checkImageExists(imgBasePath + '.jpg');
+                        if (existsJpg) {
+                            generaProdotto(prodotto, imgBasePath + '.jpg');
+                        } else {
+                            const existsJpeg = await checkImageExists(imgBasePath + '.jpeg');
+                            if (existsJpeg) {
+                                generaProdotto(prodotto, imgBasePath + '.jpeg');
+                            } else {
+                                console.log('Immagine non trovata per ' + prodotto.nome);
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    // Funzione per generare il prodotto in HTML
+    function generaProdotto(prodotto, imgPath) {
+        let contenitoreProdotti = document.getElementById("contenitore-prodotti");
+        let prodottoHtml = `
+            <div class="content-item">
+                <img src="${imgPath}" alt="${prodotto.nome}">
+                <div class="paragraph-container">
+                    <p class="left-paragraph">${prodotto.nome}</p>
+                    <p class="right-paragraph">€${prodotto.prezzo}</p>
+                </div>
+            </div>
+        `;
+        contenitoreProdotti.innerHTML += prodottoHtml;
+    }
+
+    // Avvia il caricamento dei prodotti
+    caricaProdotti();
+</script>
+
+
+
 </body>
 </html>
