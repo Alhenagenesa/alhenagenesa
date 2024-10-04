@@ -12,6 +12,49 @@ function closeNav() {
   document.getElementById("overlay").classList.remove('active');
 }
 
+
+
+
+
+
+
+function includeHTML() {
+  const elements = document.querySelectorAll("[data-include-html]");
+  elements.forEach(function(el) {
+      const file = el.getAttribute("data-include-html");
+      if (file) {
+          // Fetch the HTML content
+          fetch(file)
+              .then(response => {
+                  if (response.ok) {
+                      return response.text();
+                  } else {
+                      throw new Error('Page not found');
+                  }
+              })
+              .then(data => {
+                  el.innerHTML = data; // Inject the content
+              })
+              .catch(error => {
+                  console.error('Error loading HTML: ', error);
+                  el.innerHTML = "Content not found.";
+              });
+      }
+  });
+}
+
+// Call the function when the DOM is fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+  includeHTML();
+});
+
+
+
+
+
+
+
+
 // Funzione per ottenere il nome della pagina senza i primi 3 caratteri e senza l'estensione .html
 function getNomePagina() {
   let path = window.location.pathname;
