@@ -1,25 +1,52 @@
-indice;nome;prezzo;immagine;;;;;;
-1;Candele ritualistica;8;Basi1;;;;;;
-2;Statua madreterra (Piccola e grande);15/20;Basi2;;;;;;
-3;Madre terra con bambino;20;Basi15;;;;;;
-4;Madre terra con lune;20;Basi16;;;;;;
-5;Sottobicchiere fiore della vita;5;Basi4;;;;;;
-6;Piattino selenite;10;Basi3;;;;;;
-7;Circuito radionico benessere 15cm;15;Basi14;;;;;;
-8;Base benessere abbondanza e prosperit√† 24cm;18;Basi17;;;;;;
-9;Base abbondanza 24cm;18;Basi7;;;;;;
-10;Base salute 24cm;18;Basi8;;;;;;
-11;Base amore 24cm;18;Basi12;;;;;;
-12;Base realizzazione dei desideri 24cm;18;Basi13;;;;;;
-13;Base protezione 24cm;18;Basi11;;;;;;
-14;Base cubo di Metatron 24cm;18;Basi10;;;;;;
-15;Base riequilibrio dei chakra 24cm;18;Basi6;;;;;;
-;;;;;;;;;
-;;;;;;;;;
-;;;;;;;;;
-;;;;;;;;;
-;;;;;;;;;
-;;;;;;;;;
-;;;;;;;;;
-;;;;;;;;;
-;;;;;;;;;
+pagina;indice;nome;prezzo;immagine
+Basi;1;Candele ritualistica;8;1
+Basi;2;Statua San Michele arcangelo;8;20
+Basi;3;Statua madreterra (Piccola e grande);15/20;2
+Basi;4;Madre terra con bambino;20;15
+Basi;5;Madre terra con lune;25;16
+Basi;6;Madre terra dorata;15;22
+Basi;7;Madre terra con pentacolo;20;23
+Basi;8;Madre terra verde chiaro;20;18
+Basi;9;Madre terra con portacandele;25;21
+Basi;10;Madre terra con due portacandele;25;19
+Basi;11;Sottobicchiere fiore della vita;5;4
+Basi;12;Piattino selenite;10;3
+Basi;13;Circuito radionico benessere 15cm;15;14
+Basi;14;Base benessere abbondanza e prosperit‡ 24cm;18;17
+Basi;15;Base abbondanza 24cm;18;7
+Basi;16;Base salute 24cm;18;8
+Basi;17;Base amore 24cm;18;12
+Basi;18;Base realizzazione dei desideri 24cm;18;13
+Basi;19;Base protezione 24cm;18;11
+Basi;20;Base cubo di Metatron 24cm;18;10
+Basi;21;Base riequilibrio dei chakra 24cm;18;6
+;;;;
+;;;;
+;;;;
+BraccialiCollane;1;Chiavi;3;14
+BraccialiCollane;2;Ciondolo cubo di metatron;10;13
+BraccialiCollane;3;Bracciale con charms;15;1
+BraccialiCollane;4;Bracciale con tarocco e charms;15;2
+BraccialiCollane;5;Portachiavi Tripla dea;12;3
+BraccialiCollane;6;Collane con luna;10;4
+BraccialiCollane;7;Bracciale con charms;15;5
+BraccialiCollane;8;Collana nodo della strega;10;6
+BraccialiCollane;9;Collana pentacolo;8;7
+BraccialiCollane;10;Collana sole e luna;10;8
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+Pentasfera;1;Pentasfera 32cm alluminio satinato;75;4
+Pentasfera;2;Pentasfera 32cm alluminio brillante;80;2
+Pentasfera;3;Pentasfera 32cm bianco e oro;90;3
+Pentasfera;4;Pentasfera 32cm bianco e alluminio brillante;90;1
+Pentasfera;5;Pentasfera 32cm bianco e oro;90;5
+Pentasfera;6;Pentasfera 32cm oro e nero;90;6
+Pentasfera;7;Pentasfera 32cm nero e ramato;90;7
+Pentasfera;8;Pentasfera 32cm nero e satinato;90;8
+Pentasfera;9;Pentasfera 32cm nero e alluminio brillante;90;9
+Pentasfera;10;Pentasfera 32cm alluminio ramato;90;10
+Pentasfera;11;Pentasfera 32cm rame;100;11

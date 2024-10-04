@@ -83,78 +83,8 @@
   </Section>
 <div class="overlay" id="overlay"></div>
 
-<script src="script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-
-<script>
-    // Funzione per verificare se un file immagine esiste
-    function checkImageExists(url) {
-        return new Promise((resolve) => {
-            const img = new Image();
-            img.src = url;
-            img.onload = () => resolve(true);
-            img.onerror = () => resolve(false);
-        });
-    }
-
-    // Funzione per caricare il CSV e generare i prodotti
-    async function caricaProdotti() {
-        Papa.parse("prodotti.csv", {
-            download: true,
-            header: true,
-            complete: async function(results) {
-                let prodotti = results.data;
-
-                // Filtriamo solo i prodotti che hanno un indice e rimuoviamo eventuali spazi
-                prodotti = prodotti.filter(prodotto => prodotto.indice && prodotto.indice.trim());
-
-                // Convertiamo l'indice in numero e lo ordiniamo
-                prodotti.sort((a, b) => Number(a.indice.trim()) - Number(b.indice.trim()));
-
-                let contenitoreProdotti = document.getElementById("contenitore-prodotti");
-
-                for (const prodotto of prodotti) {
-                    if (prodotto.nome && prodotto.prezzo && prodotto.immagine) {
-                        const imgBasePath = 'img/Basi/' + prodotto.immagine; // Percorso base senza estensione
-
-                        // Controlliamo prima .jpg, poi .jpeg
-                        const existsJpg = await checkImageExists(imgBasePath + '.jpg');
-                        if (existsJpg) {
-                            generaProdotto(prodotto, imgBasePath + '.jpg');
-                        } else {
-                            const existsJpeg = await checkImageExists(imgBasePath + '.jpeg');
-                            if (existsJpeg) {
-                                generaProdotto(prodotto, imgBasePath + '.jpeg');
-                            } else {
-                                console.log('Immagine non trovata per ' + prodotto.nome);
-                            }
-                        }
-                    }
-                }
-            }
-        });
-    }
-
-    // Funzione per generare il prodotto in HTML
-    function generaProdotto(prodotto, imgPath) {
-        let contenitoreProdotti = document.getElementById("contenitore-prodotti");
-        let prodottoHtml = `
-            <div class="content-item">
-                <img src="${imgPath}" alt="${prodotto.nome}">
-                <div class="paragraph-container">
-                    <p class="left-paragraph">${prodotto.nome}</p>
-                    <p class="right-paragraph">€${prodotto.prezzo}</p>
-                </div>
-            </div>
-        `;
-        contenitoreProdotti.innerHTML += prodottoHtml;
-    }
-
-    // Avvia il caricamento dei prodotti
-    caricaProdotti();
-</script>
-
-
+<script src="script.js"></script>
 
 </body>
 </html>
