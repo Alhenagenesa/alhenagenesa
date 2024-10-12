@@ -23,13 +23,13 @@ Basi;21;Base realizzazione dei desideri 24cm;18;13
 Basi;22;Base protezione 24cm;18;11
 Basi;23;Base cubo di Metatron 24cm;18;10
 Basi;24;Base riequilibrio dei chakra 24cm;18;6
-Basi;25;Tovaglia albero vita mod4;12;29
-Basi;26;Tovaglia fasi lunari mod5;12;30
-Basi;27;Tovaglia fiore vita mod6;15;27
-Basi;28;Tovaglia luna mod7;15;28
-Basi;29;Campana piccola;0;31
-Basi;30;Campana con budda;0;32
-Basi;31;Campana grande;0;33
+Basi;25;Tovaglia albero vita mod4 75x58;12;29
+Basi;26;Tovaglia fasi lunari mod5 75x58;12;30
+Basi;27;Tovaglia fiore vita mod6 49x49;15;27
+Basi;28;Tovaglia luna mod7 49x49;15;28
+Basi;29;Campana piccola;6;31
+Basi;30;Campana con budda;12;32
+Basi;31;Campana grande;12;33
 ;;;;
 ;;;;
 ;;;;
@@ -61,3 +61,13 @@ Pentasfera;8;Pentasfera 32cm nero e satinato;90;8
 Pentasfera;9;Pentasfera 32cm nero e alluminio brillante;90;9
 Pentasfera;10;Pentasfera 32cm alluminio ramato;90;10
 Pentasfera;11;Pentasfera 32cm rame;100;11
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+Incensi;1;Porta incensi budda;6;1
+Incensi;2;Porta incensi budda;6;2
+Incensi;3;Incenso mirra;3;3
+Incensi;4;Incenso champa;3;4
