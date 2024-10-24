@@ -25,12 +25,16 @@ Basi;23;Base cubo di Metatron 24cm;18;10
 Basi;24;Base riequilibrio dei chakra 24cm;18;6
 Basi;25;Tovaglia albero vita mod4 75x58;12;29
 Basi;26;Tovaglia fasi lunari mod5 75x58;12;30
-Basi;27;Tovaglia fiore vita mod6 49x49;15;27
-Basi;28;Tovaglia luna mod7 49x49;15;28
+Basi;27;Tovaglia fiore vita mod6 75x75;15;27
+Basi;28;Tovaglia luna mod7 49x49;8;28
 Basi;29;Campana piccola;6;31
 Basi;30;Campana con budda;12;32
 Basi;31;Campana grande;12;33
-;;;;
+Basi;31;Bottiglietta oro abbondanza;10;34
+Basi;31;Sacchetto personalizzato abbondanza/protezione/salute/amore;15;35
+Basi;31;Mano di fatima ;20;36
+Basi;31;Buddha;10;37
+Basi;31;Tappetino pentacolo 49x49;8;38
 ;;;;
 ;;;;
 ;;;;
@@ -44,7 +48,7 @@ BraccialiCollane;7;Bracciale con charms;15;5
 BraccialiCollane;8;Collana nodo della strega;10;6
 BraccialiCollane;9;Collana pentacolo;8;7
 BraccialiCollane;10;Collana sole e luna;10;8
-;;;;
+BraccialiCollane;11;Chiave della vita;12;15
 ;;;;
 ;;;;
 ;;;;
