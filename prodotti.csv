@@ -30,11 +30,14 @@ Basi;28;Tovaglia luna mod7 49x49;8;28
 Basi;29;Campana piccola;6;31
 Basi;30;Campana con budda;12;32
 Basi;31;Campana grande;12;33
-Basi;31;Bottiglietta oro abbondanza;10;34
-Basi;31;Sacchetto personalizzato abbondanza/protezione/salute/amore;15;35
-Basi;31;Mano di fatima ;20;36
-Basi;31;Buddha;10;37
-Basi;31;Tappetino pentacolo 49x49;8;38
+Basi;32;Bottiglietta oro abbondanza;10;34
+Basi;33;Sacchetto personalizzato abbondanza/protezione/salute/amore;15;35
+Basi;34;Mano di fatima ;20;36
+Basi;35;Buddha;10;37
+Basi;36;Tappetino pentacolo 49x49;8;38
+Basi;37;Candela con cristalli;10;39
+Basi;38;Candela esoterica con cristalli;12;40
+Basi;39;Candela con cristalli vetro;10;41
 ;;;;
 ;;;;
 ;;;;
@@ -63,17 +66,29 @@ Pentasfera;6;Pentasfera 32cm bianco e oro;90;3
 Pentasfera;7;Pentasfera 32cm bianco e alluminio brillante;90;1
 Pentasfera;8;Pentasfera 32cm bianco e oro;90;5
 Pentasfera;9;Pentasfera 32cm nero e ramato;90;7
-Pentasfera;10;Pentasfera 32cm nero e satinato;90;8
 Pentasfera;11;Pentasfera 32cm nero e alluminio brillante;90;9
 Pentasfera;12;Pentasfera 32cm alluminio ramato;90;10
 Pentasfera;13;Pentasfera 5 aste oro e una nera;90;13
 Pentasfera;14;Pentasfera 5 aste nere e una oro;90;14
-Pentasfera;15;Pentasfera 32cm rame;100;11
-;;;;
+Pentasfera;15;Pentasfera nera oro e alluminio satinato;90;17
+Pentasfera;16;Pentasfera 32cm rame;100;11
 ;;;;
 ;;;;
 ;;;;
 Incensi;1;Porta incensi budda;6;1
-Incensi;2;Porta incensi budda;6;2
 Incensi;3;Incenso mirra;3;3
 Incensi;4;Incenso nag champa;3;4
+Incensi;5;Coni palosanto;3;5
+Incensi;6;Coni albero della vita;3;6
+Incensi;7;Coni fiore della vita;3;7
+Incensi;8;Barchetta brucia incensi;4;8
+Incensi;9;Incenso al sandalo;3;9
+Incensi;10;Barchetta brucia incensi;4;10
+Incensi;11;Incenso al sandalo;3;11
+Incensi;12;Incenso sangue di drago;3;12
+Incensi;13;Incenso vita felice;3;13
+Incensi;14;Incenso rose rosse;3;14
+Incensi;15;Cofanetto 7 chakra;10;15
+Incensi;16;Kit brucia incenso cemento + carboncini + incenso in grani;12;16
+Incensi;17;Legnetto palosanto;2.5;17
+Incensi;18;Salvia bianca Smoudg;5;18
