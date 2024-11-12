@@ -38,6 +38,8 @@ Basi;36;Tappetino pentacolo 49x49;8;38
 Basi;37;Candela con cristalli;10;39
 Basi;38;Candela esoterica con cristalli;12;40
 Basi;39;Candela con cristalli vetro;10;41
+Basi;40;Tappetino luna con fiori 49x49;8;42
+Basi;41;Tappetino luna con fiori 75x75;15;43
 ;;;;
 ;;;;
 ;;;;
@@ -81,14 +83,23 @@ Incensi;4;Incenso nag champa;3;4
 Incensi;5;Coni palosanto;3;5
 Incensi;6;Coni albero della vita;3;6
 Incensi;7;Coni fiore della vita;3;7
-Incensi;8;Barchetta brucia incensi;4;8
-Incensi;9;Incenso al sandalo;3;9
-Incensi;10;Barchetta brucia incensi;4;10
-Incensi;11;Incenso al sandalo;3;11
-Incensi;12;Incenso sangue di drago;3;12
-Incensi;13;Incenso vita felice;3;13
-Incensi;14;Incenso rose rosse;3;14
-Incensi;15;Cofanetto 7 chakra;10;15
-Incensi;16;Kit brucia incenso cemento + carboncini + incenso in grani;12;16
-Incensi;17;Legnetto palosanto;2.5;17
-Incensi;18;Salvia bianca Smoudg;5;18
+Incensi;8;Coni palosanto Nag;3;23
+Incensi;9;Barchetta brucia incensi;4;8
+Incensi;10;Incenso al sandalo;3;9
+Incensi;11;Barchetta brucia incensi;4;10
+Incensi;12;Incenso al sandalo;3;11
+Incensi;13;Incenso sangue di drago;3;12
+Incensi;14;Incenso vita felice;3;13
+Incensi;15;Incenso rose rosse;3;14
+Incensi;16;Cofanetto 7 chakra;10;15
+Incensi;17;Kit brucia incenso cemento + carboncini + incenso in grani;12;16
+Incensi;18;Legnetto palosanto;2.5;17
+Incensi;19;Salvia bianca Smoudg;5;18
+Incensi;20;Incenso palosanto handmade;3;19
+Incensi;21;Incenso sandalo handmade;3;20
+Incensi;22;Incenso salvia bianca handmade;3;21
+Incensi;23;Incenso palosanto banjara;3;22
+Incensi;24;Incenso benzoino banjara;3;24
+Incensi;25;Incenso chiave abbondanza;3;25
+Incensi;26;Incenso cannella ;3;26
+Incensi;27;Incenso salvia bianca ullas;3;27
