@@ -14,38 +14,43 @@ Basi;12;Madre terra con due portacandele;25;19
 Basi;13;madre terra da appendere;15;1
 Basi;14;Sottobicchiere fiore della vita;5;4
 Basi;15;Piattino selenite;10;45
-Basi;16;Circuito radionico benessere 15cm;15;14
-Basi;17;Base benessere abbondanza e prosperità 24cm;18;17
-Basi;18;Base abbondanza 24cm;18;7
-Basi;19;Base salute 24cm;18;8
-Basi;20;Base amore 24cm;18;12
-Basi;21;Base realizzazione dei desideri 24cm;18;13
-Basi;22;Base protezione 24cm;18;11
-Basi;23;Base cubo di Metatron 24cm;18;10
-Basi;24;Base riequilibrio dei chakra 24cm;18;6
-Basi;25;Tovaglia albero vita mod4 75x58;12;29
-Basi;26;Tovaglia fasi lunari mod5 75x58;12;30
-Basi;27;Tovaglia fiore vita mod6 75x75;15;27
-Basi;28;Tovaglia luna mod7 49x49;8;28
-Basi;29;Campana piccola;6;31
-Basi;30;Campana con budda;12;32
-Basi;31;Campana grande;12;33
-Basi;32;Bottiglietta oro abbondanza;10;34
-Basi;33;Sacchetto personalizzato abbondanza/protezione/salute/amore;15;35
-Basi;34;Mano di fatima ;20;36
-Basi;35;Buddha;10;37
-Basi;36;Tappetino pentacolo 49x49;8;38
-Basi;37;Candela con cristalli;10;39
-Basi;38;Candela esoterica con cristalli;12;40
-Basi;39;Candela con cristalli vetro;10;41
-Basi;40;Tappetino luna con fiori 49x49;8;42
-Basi;41;Tappetino luna con fiori 75x75;15;43
-Basi;42;Ciotola selenite;10;44
-Basi;43;Acchiappasogni;10;46
-Basi;44;Acchiappasogni;10;49
-Basi;45;Acchiappasogni con ametista;15;47
-Basi;46;Acchiappasogni con quarzo ialino;15;48
-Basi;47;Acchiappasogni a spirale;15;50
+Basi;16;Base sigillo 7 arcangeli;22;53
+Basi;17;Circuito radionico benessere 15cm;15;14
+Basi;18;Base benessere abbondanza e prosperità 24cm;18;17
+Basi;19;Base abbondanza 24cm;18;7
+Basi;20;Base salute 24cm;18;8
+Basi;21;Base amore 24cm;18;12
+Basi;22;Base realizzazione dei desideri 24cm;18;13
+Basi;23;Base protezione 24cm;18;11
+Basi;24;Base cubo di Metatron 24cm;18;10
+Basi;25;Base riequilibrio dei chakra 24cm;18;6
+Basi;26;Tovaglia albero vita mod4 75x58;12;29
+Basi;27;Tovaglia fasi lunari mod5 75x58;12;30
+Basi;28;Tovaglia fiore vita mod6 75x75;15;27
+Basi;29;Tovaglia luna mod7 49x49;8;28
+Basi;30;Campana piccola;6;31
+Basi;31;Campana con budda;12;32
+Basi;32;Campana grande;12;33
+Basi;33;Bottiglietta oro abbondanza;10;34
+Basi;34;Sacchetto personalizzato abbondanza/protezione/salute/amore;15;35
+Basi;35;Mano di fatima ;20;36
+Basi;36;Buddha;10;37
+Basi;37;Tappetino pentacolo 49x49;8;38
+Basi;38;Candela con cristalli;10;39
+Basi;39;Candela esoterica con cristalli;12;40
+Basi;40;Candela con cristalli vetro;10;41
+Basi;41;Tappetino luna con fiori 49x49;8;42
+Basi;42;Tappetino luna con fiori 75x75;15;43
+Basi;43;Ciotola selenite;10;44
+Basi;44;Acchiappasogni;10;46
+Basi;45;Acchiappasogni;10;49
+Basi;46;Acchiappasogni con ametista;15;47
+Basi;47;Acchiappasogni con quarzo ialino;15;48
+Basi;48;Acchiappasogni a spirale;15;50
+Basi;49;Acchiappasogni dorato;15;51
+Basi;50;Acchiappasogni genesa;40;52
+Basi;51;Elefante abbondanza;15;54
+;;;;
 ;;;;
 ;;;;
 ;;;;
@@ -104,11 +109,21 @@ Incensi;16;Cofanetto 7 chakra;10;15
 Incensi;17;Kit brucia incenso cemento + carboncini + incenso in grani;12;16
 Incensi;18;Legnetto palosanto;2.5;17
 Incensi;19;Salvia bianca Smoudg;5;18
-Incensi;20;Incenso palosanto handmade;3;19
-Incensi;21;Incenso sandalo handmade;3;20
-Incensi;22;Incenso salvia bianca handmade;3;21
-Incensi;23;Incenso palosanto banjara;3;22
-Incensi;24;Incenso benzoino banjara;3;24
-Incensi;25;Incenso chiave abbondanza;3;25
-Incensi;26;Incenso cannella ;3;26
-Incensi;27;Incenso salvia bianca ullas;3;27
+Incensi;20;Kit incensi purificazione;15;28
+Incensi;21;Kit incensi purificazione;15;29
+Incensi;22;Incenso chakra angel;3;30
+Incensi;23;Incenso angel dust;3;31
+Incensi;24;Incenso 7 arcangeli 7 bustine;5;32
+Incensi;25;Incenso 7 poteri;3;33
+Incensi;26;Porta palo santo ;6;34
+Incensi;27;Incenso 7 chakra;3;35
+Incensi;28;Agua de florida;8;36
+Incensi;29;Olio di protezione ;8;37
+Incensi;30;Incenso palosanto handmade;3;19
+Incensi;31;Incenso sandalo handmade;3;20
+Incensi;32;Incenso salvia bianca handmade;3;21
+Incensi;33;Incenso palosanto banjara;3;22
+Incensi;34;Incenso benzoino banjara;3;24
+Incensi;35;Incenso chiave abbondanza;3;25
+Incensi;36;Incenso cannella ;3;26
+Incensi;37;Incenso salvia bianca ullas;3;27
