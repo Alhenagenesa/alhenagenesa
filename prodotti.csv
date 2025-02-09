@@ -1,4 +1,4 @@
-pagina;indice;nome;prezzo;immagine
+hub;indice;nome;prezzo;immagine
 Basi;1;Candele ritualistica piccole;6;24
 Basi;2;Candele ritualistica grandi;8;25
 basi;3;Sacchettini magici lavorati energeticamente sulla data di nascita per abbondanza protezione amore e salute.;15;26
@@ -33,7 +33,7 @@ Basi;43;Ciotola selenite;10;44
 Basi;51;Grimorio della strega albero;20;55
 Basi;52;Grimorio della strega shadow;25;56
 Basi;53;Grimorio della strega madre terra;20;57
-;;;;
+Basi;54;Candela esoterica ;15;58
 ;;;;
 ;;;;
 ;;;;
@@ -81,7 +81,6 @@ Incensi;3;Incenso nag champa;3;4
 Incensi;4;Coni palosanto;3;5
 Incensi;5;Coni albero della vita;3;6
 Incensi;6;Coni fiore della vita;3;7
-Incensi;7;Coni palosanto Nag;3;23
 Incensi;8;Barchetta brucia incensi;4;8
 Incensi;9;Incenso al sandalo;3;9
 Incensi;10;Barchetta brucia incensi;4;10
@@ -117,6 +116,9 @@ Incensi;39;Incenso chiave abbondanza;3;25
 Incensi;40;Incenso cubo di metatron;3;42
 Incensi;41;Incenso cannella ;3;26
 Incensi;42;Incenso salvia bianca ullas;3;27
+Incensi;43;Olio essenziale salvia bianca;8;44
+Incensi;44;Olio essenziale palo santo;8;45
+Incensi;45;Olio essenziale angeli;8;46
 ;;;;
 ;;;;
 ;;;;
