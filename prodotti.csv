@@ -16,7 +16,6 @@ Basi;24;Base cubo di Metatron 24cm;18;10
 Basi;25;Base riequilibrio dei chakra 24cm;18;6
 Basi;26;Tovaglia albero vita mod4 75x58;12;29
 Basi;27;Tovaglia fasi lunari mod5 75x58;12;30
-Basi;28;Tovaglia fiore vita mod6 75x75;15;27
 Basi;29;Tovaglia luna mod7 49x49;8;28
 Basi;30;Campana piccola;6;31
 Basi;31;Campana con budda;12;32
@@ -29,11 +28,13 @@ Basi;39;Candela esoterica con cristalli;12;40
 Basi;40;Candela con cristalli vetro;10;41
 Basi;41;Tappetino luna con fiori 49x49;8;42
 Basi;42;Tappetino luna con fiori 75x75;15;43
-Basi;43;Ciotola selenite;10;44
 Basi;51;Grimorio della strega albero;20;55
 Basi;52;Grimorio della strega shadow;25;56
 Basi;53;Grimorio della strega madre terra;20;57
 Basi;54;Candela esoterica ;15;58
+Basi;55;;;59
+Basi;56;;;60
+Basi;57;Piattino con dischi intercambiabili;20;61
 ;;;;
 ;;;;
 ;;;;
@@ -48,11 +49,10 @@ BraccialiCollane;4;Bracciale con tarocco e charms;15;2
 BraccialiCollane;5;Portachiavi Tripla dea;12;3
 BraccialiCollane;6;Collane con luna;10;4
 BraccialiCollane;7;Bracciale con charms;15;5
-BraccialiCollane;8;Collana nodo della strega;10;6
+BraccialiCollane;8;Collana nodo della strega;15;6
 BraccialiCollane;9;Collana pentacolo;8;7
 BraccialiCollane;10;Collana sole e luna;10;8
-BraccialiCollane;11;Chiave della vita;12;15
-;;;;
+BraccialiCollane;11;Chiave della vita;15;15
 ;;;;
 ;;;;
 ;;;;
@@ -99,8 +99,8 @@ Incensi;24;Cofanetto 7 chakra;10;15
 Incensi;25;Kit brucia incenso cemento + carboncini + incenso in grani;12;16
 Incensi;26;Legnetto palosanto;2.5;17
 Incensi;27;Salvia bianca Smoudg;5;18
-Incensi;28;Kit incensi purificazione;15;28
-Incensi;29;Kit incensi purificazione;15;29
+Incensi;28;Kit incensi purificazione [ESAURITO];15;28
+Incensi;29;Kit incensi purificazione [ESAURITO];15;29
 Incensi;30;Incenso 7 arcangeli;3;40
 Incensi;31;Incenso chakra angel;3;30
 Incensi;32;Incenso angel dust;3;31
